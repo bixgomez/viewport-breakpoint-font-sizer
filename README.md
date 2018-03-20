@@ -9,9 +9,16 @@ https://css-tricks.com/snippets/sass/strip-unit-function/
 ## Usage
 
 ```
+// The size you want your font to be at the "switch point"
 $threshold-px: 14px;
-$switch-point: $md;
+
+// The breakpoint at which you want yout font size to be $threshold-px
+$switch-point: 800px;
+
+// The rate that you want font size to increase as browser width increases from $switch-point
 $vw-rate-up: 1.5vw;
+
+// The rate that you want font size to increase as browser width decreases from $switch-point
 $vw-rate-down: 1.0vw;
 
 $up-size: baseFontSize($threshold-px, $switch-point, $vw-rate-up, 'add');
