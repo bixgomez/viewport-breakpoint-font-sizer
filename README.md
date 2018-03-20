@@ -6,9 +6,11 @@ This Sass function uses simple math to figure out what combination of settings w
 Sass functions are written in simple .scss files, and they can be placed anywhere -- I stick them in their own functions directory, and I call them pretty early in my Sass chain, right after I declare my variables. 
 
 ## Requirements
-You will need to download and deploy the "strip-units" function in order for this to work:
+You will need to download and deploy Hugo Giraudel's "strip-units" function in order for this to work:
 
 https://css-tricks.com/snippets/sass/strip-unit-function/
+
+(I have included it in this repo in case it should disappear from css-tricks.)
 
 ## Usage
 Let's say we want the base font size to be 14px, and that we want the text to be that size at the 800px breakpoint.  Let's say we have also decided that we want the font size to increase at a rate of 1.5vw on the way "up" (wider than 800px), and at a rate of 1.0vw on the way "down" towards mobile width.
