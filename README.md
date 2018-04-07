@@ -1,7 +1,7 @@
 # Viewport breakpoint font sizer
 A Sass function to facilitate predictable viewport-based font sizes.
 
-This Sass function uses simple math to figure out what combination of settings would give us the font size we desire at the breakpoint where we want the switch between increasing upward and increasing downward to occur.
+This Sass function uses simple math to figure out what combination of settings would yield the desired font size at the breakpoint where you want the switch between increasing upward and increasing downward to occur.
 
 Sass functions are written in simple .scss files, and they can be placed anywhere -- I stick them in their own functions directory, and I call them pretty early in my Sass chain, right after I declare my variables. 
 
