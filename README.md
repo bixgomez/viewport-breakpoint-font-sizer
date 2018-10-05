@@ -5,6 +5,9 @@ This Sass function uses simple math to figure out what combination of settings w
 
 Sass functions are written in simple .scss files, and they can be placed anywhere -- I stick them in their own functions directory, and I call them pretty early in my Sass chain, right after I declare my variables. 
 
+## Demo
+You can see it in action at CodePen: https://codepen.io/bixgomez/pen/wYWZVY
+
 ## Requirements
 You will need to download and deploy Hugo Giraudel's "strip-units" function in order for this to work:
 
