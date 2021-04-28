@@ -1,5 +1,5 @@
 # Viewport breakpoint font sizer
-This is a Sass function (and mixin) to facilitate predictable viewport-based font sizes.
+This is a Sass function (and mixin) to facilitate predictable viewport-based font sizes.  I wrote this in an attempt to provide a solution to text that might be difficult-to-read at certain screen sizes.
 
 It uses relatively simple math to deliver the combination of settings that will give us the font size we want at a specific "threshold" breakpoint, and variable font sizes "above" and "below" this point at specified rates of increase and decrease.
 
